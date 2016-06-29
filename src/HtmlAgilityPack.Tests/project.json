@@ -4,8 +4,8 @@
   "testRunner": "mstest",
 
   "dependencies": {
-    "dotnet-test-mstest": "1.0.0-preview",
-    "HtmlAgilityPack": "1.0.0-*",
+    "dotnet-test-mstest": "1.0.1-preview",
+    "HtmlAgilityPack": "1.5.0",
     "MSTest.TestFramework": "1.0.0-preview"
   },
 
@@ -18,7 +18,7 @@
 
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.0.0-rc2-3002702",
+          "version": "1.0.0",
           "type": "platform"
         }
       }
