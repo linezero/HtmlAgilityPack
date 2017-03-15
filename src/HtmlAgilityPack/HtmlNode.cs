@@ -1439,7 +1439,7 @@ namespace HtmlAgilityPack
 				case HtmlNodeType.Document:
 					if (_ownerdocument.OptionOutputAsXml)
 					{
-#if NETSTANDARD1_6
+#if NETSTANDARD1_4
                         outText.Write("<?xml version=\"1.0\" encoding=\"" + _ownerdocument.GetOutEncoding().WebName +
 									 "\"?>");
 #else
@@ -1571,7 +1571,7 @@ namespace HtmlAgilityPack
 					break;
 
 				case HtmlNodeType.Document:
-#if NETSTANDARD1_6
+#if NETSTANDARD1_4
                     writer.WriteProcessingInstruction("xml",
 													  "version=\"1.0\" encoding=\"" +
 													  _ownerdocument.GetOutEncoding().WebName + "\"");

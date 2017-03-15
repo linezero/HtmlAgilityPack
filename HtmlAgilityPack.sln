@@ -1,20 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BE5A72E-FC2D-4030-B502-320BDDA076DB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E84520D-05F1-4055-A458-8BF5DAB42782}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlAgilityPack", "src\HtmlAgilityPack\HtmlAgilityPack.csproj", "{952A87CE-F172-43FB-A0BA-1D9E8B71B0F5}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HtmlAgilityPack", "src\HtmlAgilityPack\HtmlAgilityPack.xproj", "{952A87CE-F172-43FB-A0BA-1D9E8B71B0F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlAgilityPack.Tests", "src\HtmlAgilityPack.Tests\HtmlAgilityPack.Tests.csproj", "{A28B5F47-F5B8-4060-9816-5A0652DD8C9D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HtmlAgilityPack.Tests", "src\HtmlAgilityPack.Tests\HtmlAgilityPack.Tests.xproj", "{A28B5F47-F5B8-4060-9816-5A0652DD8C9D}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NETCoreHtml", "src\NETCoreHtml\NETCoreHtml.xproj", "{AED1C75A-3147-4A1F-A685-C875F1DBA20B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCoreHtml", "src\NETCoreHtml\NETCoreHtml.csproj", "{AED1C75A-3147-4A1F-A685-C875F1DBA20B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
